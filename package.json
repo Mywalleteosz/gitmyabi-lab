@@ -1,0 +1,23 @@
+{
+  "name": "gitmyabi-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "gitmyabi-lab": "file:gma-out/gitmyabi-lab-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.9",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^22.20.5",
+    "hardhat": "^3.21.1",
+    "solc": "^0.8.34",
+    "typescript": "~6.0.3",
+    "viem": "^2.57.11"
+  }
+}

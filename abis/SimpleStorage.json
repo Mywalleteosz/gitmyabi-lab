@@ -1,0 +1,16 @@
+[
+  {
+    "type": "function",
+    "name": "get",
+    "inputs": [],
+    "outputs": [{"name": "", "type": "uint256"}],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "set",
+    "inputs": [{"name": "value", "type": "uint256"}],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://gitmyabi.com/schema/gma.config.json",
+  "packageName": "gitmyabi-lab",
+  "packageVersion": "1.0.0",
+  "framework": "abis",
+  "output": "./gma-out",
+  "tar": "./gma-out/gitmyabi-lab-1.0.0.tgz",
+  "target": "viem",
+  "generateMcp": true,
+  "registry": "https://registry.npmjs.org",
+  "access": "public",
+  "tokenEnv": "NPM_TOKEN",
+  "abis": [
+    "./abis/**/*.json"
+  ],
+  "projectName": "gitmyabi-lab"
+}
