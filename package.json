@@ -17,8 +17,13 @@
     "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
     "@types/node": "^22.20.5",
     "hardhat": "^3.21.1",
-    "solc": "^0.8.34",
+    "solc": "0.8.38",
     "typescript": "~6.0.3",
     "viem": "^2.57.11"
+  },
+  "overrides": {
+    "solc": {
+      "tmp": "0.2.7"
+    }
   }
 }
