@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { network } from "hardhat";
-import { SimpleStorage } from "gitmyabi-lab";
+import { SimpleStorage } from "@gitmyabi/mywalleteoszs-team-845199c9--gitmyabi-lab";
 
 describe("GitMyABI client", async function () {
   const { viem } = await network.create();
