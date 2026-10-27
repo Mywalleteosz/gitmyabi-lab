@@ -9,6 +9,7 @@
   "keywords": [],
   "type": "module",
   "dependencies": {
+    "@gitmyabi/mywalleteoszs-team-845199c9--gitmyabi-lab": "^0.0.2",
     "gitmyabi-lab": "file:gma-out/gitmyabi-lab-1.0.0.tgz"
   },
   "devDependencies": {
